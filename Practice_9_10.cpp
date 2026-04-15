@@ -170,7 +170,7 @@ void Top5Albums(album albums[], int count) {
 
     cout << "Альбом изменен!" << endl;
 }*/
-// 6. ФИЛЬТРАЦИЯ по трекам (>7 композиций)
+//6. Фильтрация по трекам (>7 композиций)
 int FilterBySongCount(album StartArr[], int StartArrCount, album FinalArr[]) {
     int FinalArrCount = 0;
     for (int i = 0; i < StartArrCount; i++) {
